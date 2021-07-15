@@ -8,15 +8,5 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent{
-  title = 'angular';
-  // constructor(private http: HttpClient){
-  //   http.get<any>(environment.baseUrl).subscribe(
-  //     result => {
-  //       alert(result);
-  //       alert(environment.production);
-  //     },
-  //     error => {
-  //       console.log(error);
-  //     });
-  // }  
+  title = 'angular';  
 }
